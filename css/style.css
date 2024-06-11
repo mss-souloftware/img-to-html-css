@@ -1,0 +1,119 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+
+.wrapper {
+    width: 95%;
+    margin: auto;
+    padding: 0;
+}
+
+.section1 {
+    padding: 50px 0;
+}
+
+.section1 .firstPanel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .firstPanel .firstPanelInner {
+    width: calc(33.33% - 30px);
+}
+
+.section1 .firstPanel .firstPanelInner .whislistIcon {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.section1 .firstPanel .firstPanelInner .thumbnail {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.section1 .firstPanel .firstPanelInner .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1 .firstPanel .firstPanelInner .profileData {
+    text-align: center;
+}
+
+.section1 .firstPanel .firstPanelInner .profileData h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #131816;
+    margin: 20px 0 10px 0;
+}
+
+.section1 .firstPanel .firstPanelInner .profileData p {
+    color: #72787D;
+    max-width: 340px;
+    margin: auto;
+}
+
+.section1 .firstPanel .firstPanelInner .cta {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+}
+
+.section1 .firstPanel .firstPanelInner .cta a {
+    width: calc(50% - 10px);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.section1 .firstPanel .firstPanelInner .cta a:first-child {
+    background: #F1F3F4;
+    color: #111315;
+}
+
+.section1 .firstPanel .firstPanelInner .cta a:last-child {
+    background: #1762B4;
+    color: #fff;
+}
+
+.section1 .firstPanel .firstPanelInner h2 {
+    color: #131313;
+    font-weight: 900;
+}
+
+.section1 .firstPanel .firstPanelInner .colPanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.section1 .firstPanel .firstPanelInner .colPanel p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.section1 .firstPanel .firstPanelInner .colPanel a {
+    background: #F1F3F4;
+    color: #111315;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.section1 .firstPanel .firstPanelInner .colPanel span {
+    color: #6C7277;
+}

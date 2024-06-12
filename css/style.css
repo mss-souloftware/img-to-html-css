@@ -19,22 +19,27 @@
 .section1 .firstPanel {
     display: flex;
     justify-content: space-between;
+    flex-flow: column;
 }
 
 .section1 .firstPanel .firstPanelInner {
     width: calc(33.33% - 30px);
 }
 
+.section1 .firstPanel>.firstPanelInner {
+    margin: auto;
+}
+
 .section1 .firstPanel .rightData {
     display: flex;
     justify-content: space-between;
     flex-flow: wrap;
-    width: 70%;
-    margin-left: 30px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .section1 .firstPanel .rightData .firstPanelInner {
-    width: calc(50% - 30px);
+    width: calc(50% - 70px);
 }
 
 .section1 .firstPanel .rightData .firstPanelInner:nth-child(3),
@@ -307,12 +312,12 @@
         width: 97%;
     }
 
-    .section1 .firstPanel .rightData {
-        margin-left: 20px;
-    }
-
     .section1 .firstPanel .rightData .firstPanelInner {
         width: calc(50% - 15px);
+    }
+
+    .section1 .firstPanel .firstPanelInner {
+        width: calc(50% - 30px);
     }
 }
 
